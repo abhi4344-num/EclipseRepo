@@ -5,6 +5,7 @@ public class foreach {
 	private String Firstname;
 	private String Lastname;
 	private boolean goldcust;
+	private int number;
 	public foreach(String firstname, String lastname, boolean goldcust) {
 		super();
 		Firstname = firstname;
@@ -22,6 +23,11 @@ public class foreach {
 	}
 	public void setLastname(String lastname) {
 		Lastname = lastname;
+	}
+	
+	public foreach(int number) {
+		super();
+		this.number = number;
 	}
 	public boolean isGoldcust() {
 		return goldcust;
